@@ -40,11 +40,11 @@ def main():
 
     if flask.request.method == 'POST':
         url = flask.request.form['URL']
-        client_id = 'rWkFCWZXUQJ4Jg'
-        client_secret =  'sOlRFC9Y5W3UpOIOTZP0BySF-8Q'
-        user_agent = 'r/india flair'
-        username = 'Megs0804'
-        password = 'Mc123456@'
+        client_id = ''
+        client_secret =  ''
+        user_agent = ''
+        username = ''
+        password = ''
 
         import praw
 
